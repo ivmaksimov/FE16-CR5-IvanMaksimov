@@ -1,0 +1,175 @@
+
+
+header {
+  
+  height: 20em;
+  width: 100%;
+  background-image: url(../pics/pic-2.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.nav a {
+  color: rgb(162, 247, 255);
+}
+
+nav a:hover {
+  text-shadow: 0px 0px 30px rgb(162, 247, 255);
+  
+}
+
+.search-input{
+  height: 2em;
+}
+
+.search-btn{
+  background-color: rgb(162, 247, 255);
+  display: flex;
+  align-items: center;
+}
+
+main{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kalam',cursive ;
+  
+  
+}
+
+.card-shdw {
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+#main{
+  padding-bottom: 20px;
+}
+
+.main-header{
+  font-weight: bold;
+
+  text-align: center;
+}
+.title1{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+
+}
+
+.info{
+  margin-top: 2em;
+}
+
+.info2 {
+  margin-top: 0;
+}
+
+.info p, .info2 p {
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-b{
+  position: relative;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.card a:hover {
+  text-shadow: 2px 2px 5px  white;
+  color: white;
+}
+
+.img{
+  margin: 0;
+}
+
+.btn-vaccine{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(226, 29, 29);
+  width: 100%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+footer {
+  margin-top: 2em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  
+  color: black;
+  font-size: 18px;
+}
+
+footer ul {
+  margin-left: -2em;
+  margin-top: 1em;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+footer li,
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+
+}
+
+.footer-links{
+  background-color:rgb(153, 192, 212) ;
+  width: 100%;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a:hover {
+  box-shadow: 0px 0px 30px 1px white;
+  color: white;
+}
+
+footer i {
+  font-size: 14px;
+  padding: 5px;
+
+}
+
+.copy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(75, 149, 186);
+}
+
+.copy p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+}

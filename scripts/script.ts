@@ -17,8 +17,8 @@ class Animals {
         animalsArray.push(this);
     }
     printCards() {
-        return `<div class="card card-shdw" style="width: 30%; ">
-        <img src="pics/${this.image}"  class="card-img-top img" alt="...">
+        return `<div class="card card-shdw cards" >
+        <img src="pics/${this.image}"  class="pic card-img-top img" alt="...">
         <div class="card-b">
           <h5 class=" title1">${this.name}</h5>
           <div class="info">
@@ -46,8 +46,8 @@ class Cat extends Animals{
         this.link = link;
     }
     printCards() {
-        return  `<div class="card card-shdw" style="width: 30%; ">
-        <img src="pics/${this.image}"  class="card-img-top img" alt="...">
+        return  `<div class="card card-shdw cards"  >
+        <img src="pics/${this.image}"  class="pic card-img-top img" alt="...">
         <div class="card-b">
           <h5 class=" title1">${this.name}</h5>
           <div class="info">
@@ -77,8 +77,8 @@ class Dog extends Animals{
         this.training = training;
     }
     printCards() {
-        return `<div class="card card-shdw" style="width: 30%; ">
-            <img src="pics/${this.image}"  class="card-img-top img" alt="...">
+        return `<div class="card card-shdw cards" >
+            <img src="pics/${this.image}"  class="pic card-img-top img" alt="...">
             <div class="card-b">
             <h5 class=" title1">${this.name}</h5>
             <div class="info">

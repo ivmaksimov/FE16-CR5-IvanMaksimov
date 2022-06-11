@@ -184,3 +184,26 @@ footer i {
   margin: 0;
   padding: 10px;
 }
+
+.cards {
+  width: 30%;
+}
+
+@media screen and (min-width:768px) and (max-width:991.999px) {
+  .cards{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:767.999px) {
+  .cards {
+    width: 55%;
+  }
+  .pic{
+    display: none;
+  }
+
+  header {
+    height: 10em;
+  }
+}

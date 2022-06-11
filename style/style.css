@@ -42,7 +42,10 @@ main{
 
 .card-shdw {
   box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
 }
+
+
 
 #main{
   padding-bottom: 20px;
@@ -87,8 +90,8 @@ main{
 }
 
 .card a:hover {
-  text-shadow: 2px 2px 5px  white;
-  color: white;
+  text-shadow: 3px 3px 5px  black;
+  color: black
 }
 
 .img{
@@ -98,11 +101,17 @@ main{
 .btn-vaccine{
   text-decoration: none;
   color: white;
-  background-color: rgb(226, 29, 29);
+  background-color: green;
   width: 100%;
   text-align: center;
   border-radius: 50px;
   padding: 5px;
+  border: none;
+}
+
+.btn-vaccine:hover{
+  text-shadow: 3px 3px 5px  black;
+  color: black
 }
 
 
